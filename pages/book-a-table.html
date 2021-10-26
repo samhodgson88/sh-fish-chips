@@ -9,37 +9,81 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css"
+    <link rel="stylesheet" href="../css/style.css">
 
-    <title>Sam Website</title>
+    <title>Hodgey's fish &amp chips</title>
 </head>
 
 <body>
-
-  <div class="navbar">
-    <div class="container">
-      <div class="marginb-20 def-center">
-        <h1 class="logo">Hodgeys Fish &amp; Chips</h1>
+  <nav class="navbar bg-light">
+    <h1 class="logo">Hodgeys Fish &amp; Chips</h1>
         <H1 class="logo">Restaurant &amp; takeaway</H1>
-      </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+             <a href="/pages/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../pages/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="book-a-table.html">book-a-table</a>
+          </li>
+          <li class="nav-item">
+            <a href="../pages/contact-us.html">contact us</a>
+          </li>
+         </ul>
+       </nav>     
 
-      <div class="row marginb-20" >
-        <div class="col-md-4 flex">
-          <ul>
-            <li>
-              <a href="../pages/index.html">Home</a>
-            </li>
-            <li>
-              <a href="/pages/menu.html">Menu</a>
-            </li>
-            <li>
-              <a href="../pages/book-a-table.html">book a table</a>
-            </li>
-            <li>
-              <a href="../pages/contact-us.html">Conract us</a>
-            </li>
-          </ul>
-        </div>
+
+      
+      <div class="container-fluid">
+           <h1> Please fill in the form if you would like to reserve a table</h1>
+      </div>     
+
+          <form action=/action_page.php>
+            <div class="form-group">
+              <div class="row">
+                <div class="col">
+                  <div method="POST" action="https://formdump.codeinstitute.net">
+                  <label for="name"> Name</label>
+                  <input type="text" name="Name" id="name-form" class= "form-control">
+                </div>   
+              </div> 
+             </div>
+              <div class="form-group">
+                <label for="email"> Email </label>
+                <input type= "email" name="email" id="email-form" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email"> Email </label>
+                <input type= "email" name="email" id="email-form" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="phone"> Phone Number</label>
+                <input type="tel" name="phone number" id=phone-form: class="form-control">  
+              </div>
+              <div class="form-group">
+                <label for="date-time"> date and time</label>
+                <input type="datetime-local" name= "date-time" id="date-time" class="form-control">
+              </div>
+              <div class="form-group">
+               <label for="no-guests">Number of Guests</label> 
+               <input type="number" name="no-guests" id="no-guests" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="diet"> Please specify any dietary requirements</label>
+                <input type="text" name="diet" id="diet" class="form-control">
+              </div>  
+                <button type="submit" class="btn btn-primary">submit</button>
+              </div>   
+          </form>
+
+
+            
+
+
+      
+
 
   
     
@@ -48,47 +92,9 @@
       
 
 <form>
-  <h1>Reserve a table</h1>
-<div class="container">
-  <div class="col-lg-2">
-    <div class="marginb-20">  
 
-  <form method="POST" action="https://formdump.codeinstitute.net">
-    <div class="form-group">
-      <label for="name"> Name</label>
-      <input type="text" name="Name" id="name-form" class= "form-control">  
-    </div>
-    <div class="form-group">
-      <label for="email"> Email </label>
-      <input type= "email" name="email" id="email-form" class="form-control">
-    </div>
-    <div class="form-group">
-      <label for="email"> Email </label>
-      <input type= "email" name="email" id="email-form" class="form-control">
-    </div>
-    <div class="form-group">
-      <label for="phone"> Phone Number</label>
-      <input type="tel" name="phone number" id=phone-form: class="form-control">  
-    </div>
-    <div class="form-group">
-      <label for="phone"> Phone Number</label>
-      <input type="tel" name="phone number" id=phone-form: class="form-control">
-    </div>  
-    <div class="form-group">
-      <label for="date-time"> date and time</label>
-      <input type="datetime-local" name= "date-time" id="date-time" class="form-control">
-    </div>
-    <div class="form-group"></div>
-     <label for="no-guests">Number of Guests</label> 
-     <input type="number" name="no-guests" id="no-guests" class="form-control">
-    </div>
-    <div>
-      <label for="diet"> Please specify any dietary requirements</label>
-      <input type="text" name="diet" id="diet" class="form-control>
-        <input type = submit>
-    </div>    
 
-</form>
+  
      
 
   
