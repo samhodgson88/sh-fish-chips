@@ -1,17 +1,38 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 .body {
     background-color:#003d7a;
-    font-family: 'courgette' , cursive
+    font-family: 'courgette' , cursive;
     text-color:c8e4ff;
  }
+ .logo{
+     letter-spacing:2px;
+     color:#021a31
+ }
+ #menu a:hover{
+     border-bottom: 2px #021a31;
+ }
+ @media screen and (max-width: 1200px){
+     |
+ }
+  #form-heading{
+    padding: 20px;
+ }
+ .form-group{
+     padding: 20px;
+     content:25%
+    background-color: #DDEEF3;
+ }
+     
+
  h1,h2,h3,h4,h5,h6,p{
     font-family: 'Courgette', cursive   
  }
-.logo{
-      color:#021a31
-      
-     }
+
 img {
     width:100%;
 }
