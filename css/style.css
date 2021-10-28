@@ -21,20 +21,17 @@
  }
   #form-heading{
     padding: 20px;
+    text-align:center;
  }
  .form-group{
-     padding: 20px;
+     padding:10px;
      content:25%
-    background-color: #DDEEF3;
  }
-     
-
+ 
  h1,h2,h3,h4,h5,h6,p{
     font-family: 'Courgette', cursive   
  }
 
-img {
-    width:100%;
 }
 .navbar {
     height:110px;
@@ -48,40 +45,31 @@ img {
  padding: 3px;
  margin: 0 
 }
+#background-color-contact-us{
+    background-color:#28B4DF
+}
 .container-bg {
-    background-color: #c8e4ff;
+  background-color: #c8e4ff;
 }
 .container {
 text-align: center;
 }
 
-
-
-
-.footer {
-    background-color: #555;
-    color: white;
-    padding: 15px;
-  }
-{
-    .sidenav {
-    background-color: #f1f1f1;
-    height: 100%;
-    }
-    .row.content {height:auto;} 
-
-    .row{
-    text-align:right
+ .sidenav {
+background-color: #f1f1f1;
+height: 100%;
+ }
     
-    }
+
+.row{
+text-align:center 
+ }
 .ish-position {
     margin: 0 auto;
 }
     
-.form-group{
-    color:#c8e4ff
 
-}
+
 .book-a-table-form {
     align-items: flex-left;
     height:300px;
@@ -94,13 +82,18 @@ text-align: center;
 .container{
     max-width:1100px;
     margin: 0 auto;
-    padding:10px
+    padding:50px
 }
       
 }
 .img-fluid{
-padding-top: 8%;
+padding-top: 10%;
 enlarge:400px;
+}
+#bangor{
+    width:100%
+    padding:10%;
+    height: 100px;
 }
 /* middle section of index page*/
 
@@ -152,11 +145,6 @@ enlarge:400px;
       border: 1px solid black;
       
 }
-.div.fish-position p{
-    top: 10px;
-      border: 1px solid blue;
-      display: inline-block;
-      background: #E3F2FD;
 }
 IN THE MENU
 .list-group-item, p {
@@ -164,9 +152,7 @@ IN THE MENU
     content:50px;
 
 }
-.list-group-burger
-background-color:#ADD8E6
-    padding:3px;
+
 
 .list-group-pie ul {
     }
