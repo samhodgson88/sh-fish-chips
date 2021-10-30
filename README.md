@@ -1,108 +1,242 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+IMPORTANT - as I went to upload my completed CSS I recieved an error message from GITPOD and I cant commit or push my completed CSS. The error message stated the following. 
 
-Welcome samhodgson88,
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+gitpod /workspace/sh-fish-chips $ git pull <remote> master:dev
+bash: remote: No such file or directory
+gitpod /workspace/sh-fish-chips $ git pull origin master 
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: couldn't find remote ref master
+gitpod /workspace/sh-fish-chips $ git pull origin master //
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+  
+  
+  
+All of the work I completed was local so I am unable to pull files from anywhere. The project is due in on 31/10/21 at 12 Noon. I understand that I am going to initially fail this project but this issue is out of my control and completley outside of my capabilites (or the majority of people at this point in the course). to solve in the timeframe before I need to hand this project in (I have started off as a complete beginer). I feel that this issue has unfairly put me in a positon of failing so when possible I would like to discuss re-submissions. I can show and prove that I have completed the work within this read.me but it will not be applied to the finished website that will be seen.
+  
+  Underneath is the completed CSS.
+  *{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.body {
+    background-color:#003d7a;
+    font-family: 'courgette' , cursive;
+    background-color: #77b3eb;
+ }
+ #logo{
+     letter-spacing:2px;
+     color:#021a31
+ }
+ #menu a:hover{
+     border-bottom: 2px #021a31;
+ }
+ @media screen and (max-width: 1200px){
+     
+ }
+  #form-heading{
+    padding: 20px;
+    text-align:center;
+ }
+ #footer-color {
+    background-color:#c8e4ff;
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ }
+ .form-group{
+     padding:10px;
+    
+ }
+ h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Courgette', cursive   
+ }
+.navbar {
+    height: 200px;
+    background-color: #8ec1d1;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar, a {
+ color:#00264d
+ ;padding: 3px;
+ margin: 0 
+}
+#background-color-contact-us{
+    background-color:#021a31;
+}
+#contact-us-black-text{
+    color:#021a31
+}
+.container-bg {
+  background-color: #c8e4ff;
+}
+.container {
+text-align: center;
+}
+ .sidenav {
+background-color: #c8e4ff;
+height: 100%;
+ }
+.row{
+text-align:center 
+ }
+.ish-position {
+    margin: 0 auto;
+}  
+.book-a-table-form {
+    height:300px;
+    width:300px;
+    z-index: 100;
+    margin: auto;
+    position: relative;
+}
+.container{
+    max-width:1100px;
+    margin: 0 auto;
+    padding:50px
+}
+.img-fluid{
+padding-top: 10%;
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+}
+#bangor{
+    width:100%
+    ;padding:2%;
+    height: 100px;
+}
+  .opening-times {
+      display: grid;
+      grid-template-columns: 25% 25%;
+      gap: 20px;
+      height: 100px;
+      padding: 20px 5px 5px 40px;
+      color: #28B4DF;
+    }
+ 
+.padding{
+    padding-bottom: 2rem;
+}
+  .drink-container, li {
+      padding:5px;
+    }
+  div.fish-position{
+  background-color:#ADD8E6;
+      border: 1px solid black;
+    }
 
-## Gitpod Reminders
+h3,h4 {
+    color:#021a31
+}
+  
+  
+  THIS IS THE READ ME FILE AS INTENDED! 
+  
+  
+  
+  
+  
+  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Introduction:
 
-`python3 -m http.server`
+Hodgey’s fish and chips is a fictitious restaurant business based loosely on a real life takeaway based in Hertfordshire UK that I worked for a as a delivery driver in the beginning six months of the covid-19 pandemic. The website offers information about the service provided, contact details, details of how to find the restaurant, a form for pre-booking a table and external links to third party delivery websites. The website consists of four pages. The home page with opening times and blurb of the business, a menu page, book a table page and a contact us page. 
 
-A blue button should appear to click: _Make Public_,
+![] (/workspace/sh-fish-chips/css/amiresponsive.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+UX:
 
-A blue button should appear to click: _Make Public_,
+My overall aim was to have a responsive website that gave a feel of the seaside through images and colour, this is the tone set throughout. I wanted it to be uncluttered and easy to navigate. 
+A further aim was to clearly offer both parts of the restaurant and takeaway service and I have done this through a dedicated booking page and external links to delivery sites. 
 
-Another blue button should appear to click: _Open Browser_.
+Home page:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+On the home I wanted a design that gave a quick synopsis of the service provided. A Navigation bar that was clear and was within the blue colour scheme that represents the seaside and a title that
+clearly stated both restaurant & takeaway. In the centre is a jumbotron of a seafront in a coastal town in Devon called Brixham which I think is eyecatching for the user. Then underneath is useful information about opening times. 
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+Menu Page: 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Throughout the design I used the CSS framework bootstrap to ensure that I was making a fully responsive website that would work from mobile device upwards. The framework was useful for placing the menu options It is split into the three items per row. Fish, burgers, pies then extras, drinks and desserts. I us used the bootstrap classes row and  col-sm-4 to achieve this. I deliberately wanted to keep this page as simple as possible and avoid images as a rule of thumb in the food world is that establishments are usually nicer if they don’t have pictures of the food next to the menu. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Book-a-table:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+This page is a form for the user too interactive with in order to pre-book a table. To keep within the seaside image on this occasion I used a centered jumbotron of Bangor harbour in Wales. 
+Underneath  this jumbotron is a centered form that I created which contains all of the information needed in order to book a table. Customers name, contact details times and date they want and amount of guests. I wanted to keep this form as wide as possible in order for the user to clearly see what input are needed in the form. In this case I used the classes row  and col-md-6 for placement. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Contact us. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+the main focus of the contact page for the user is the map of how to find the restaurant. For this and the address that is underneath and centered I put the address of the Fish & chip takeaway that I used to work for. I also put the address and contact number. In the footer there is a link to the newsletter so the restaurant has the option of creating a mail out if they would like. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Wireframe: 
+The wireframe that I created was designed using Balsamiq Wireframes. I created the four pages that I wanted using the wireframe and where possible I stuck to this guide. Although there are some parts that I later decided against such as logo’s on the external links and using dropdown menus in the middle of the page for the menu section. The reason for this was that it didn’t fit the stylistic seaside scheme that I wanted. I also added an extra image in the Book a table page.  ADD WIREFRAME
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Site overview: 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ADD IMAGES 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The User Story
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+As a user I want the website to be easy to navigate. If I was local to the area I would be easily able find out the opening times so I could go to the takeaway myself. I can navigate all pages clearly and easily from the navigation bar. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+As a user I want to use a delivery service: I have included external links in the footer and in the header I have also provided internal links that go down to the footer for this. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+As a user I want to find out the location of the restaurant. This can be found on the contact us page. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+As a user I would like to book online. The form makes this possible. 
 
-------
+Testing. 
 
-## FAQ about the uptime script
+I tested the website that I created on Lighthouse and hear are the following results. The speed index came in at 2.5s accessibility received 93 out of 100. 
 
-**Why have you added this script?**
+I also manually tested the responsiveness of the design in the google chrome developer tools where it work in phone tablet and desktop size. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+A recurring problem that I did not manage to resolve was a drop down box within the Nav bar. I had major issues around responsiveness with this and the dropdown box that would have had  the links to delivery services in would disappear at any below the desktop level of 1200px
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Deployment 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The website has been deployed to git-hub pages as sh-fish-chips
+![image](https://user-images.githubusercontent.com/89813192/139556364-f2a082af-8843-4e04-90c6-b172a15f291b.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+ 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+ 
+  
+   
