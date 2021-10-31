@@ -166,9 +166,9 @@ h3,h4 {
 Introduction:
 
 Hodgey’s fish and chips is a fictitious restaurant business based loosely on a real life takeaway based in Hertfordshire UK that I worked for a as a delivery driver in the beginning six months of the covid-19 pandemic. The website offers information about the service provided, contact details, details of how to find the restaurant, a form for pre-booking a table and external links to third party delivery websites. The website consists of four pages. The home page with opening times and blurb of the business, a menu page, book a table page and a contact us page. 
+   
+![Screenshot 2021-10-29 at 16 30 51](https://user-images.githubusercontent.com/89813192/139572997-1e3c8531-becf-4cb4-a9c0-3cc7901c51d6.png)
 
-
-/workspace/sh-fish-chips/css/amiresponsive.png
 
 UX:
 
@@ -179,6 +179,10 @@ Home page:
 
 On the home I wanted a design that gave a quick synopsis of the service provided. A Navigation bar that was clear and was within the blue colour scheme that represents the seaside and a title that
 clearly stated both restaurant & takeaway. In the centre is a jumbotron of a seafront in a coastal town in Devon called Brixham which I think is eyecatching for the user. Then underneath is useful information about opening times. 
+   
+   ![Screenshot 2021-10-30 at 20 12 21](https://user-images.githubusercontent.com/89813192/139573162-c668fb18-c7ed-4d04-b9d2-4f4f31623f45.png)
+![Screenshot 2021-10-30 at 18 52 32](https://user-images.githubusercontent.com/89813192/139573166-625f94a5-3112-4dea-b373-268ed551cc06.png)
+
 
 
 
@@ -187,24 +191,40 @@ clearly stated both restaurant & takeaway. In the centre is a jumbotron of a sea
 Menu Page: 
 
 Throughout the design I used the CSS framework bootstrap to ensure that I was making a fully responsive website that would work from mobile device upwards. The framework was useful for placing the menu options It is split into the three items per row. Fish, burgers, pies then extras, drinks and desserts. I us used the bootstrap classes row and  col-sm-4 to achieve this. I deliberately wanted to keep this page as simple as possible and avoid images as a rule of thumb in the food world is that establishments are usually nicer if they don’t have pictures of the food next to the menu. 
+   
+   ![Screenshot 2021-10-30 at 20 13 01](https://user-images.githubusercontent.com/89813192/139573195-288259d4-29e5-4ffa-b998-99a2274be7df.png)
 
+   
+
+   
 Book-a-table:
 
 This page is a form for the user too interactive with in order to pre-book a table. To keep within the seaside image on this occasion I used a centered jumbotron of Bangor harbour in Wales. 
 Underneath  this jumbotron is a centered form that I created which contains all of the information needed in order to book a table. Customers name, contact details times and date they want and amount of guests. I wanted to keep this form as wide as possible in order for the user to clearly see what input are needed in the form. In this case I used the classes row  and col-md-6 for placement. 
+   
+  ![Screenshot 2021-10-31 at 07 39 20](https://user-images.githubusercontent.com/89813192/139573287-6cd277cc-be2f-406e-9eb1-0943543951ff.png)
+ ![Screenshot 2021-10-31 at 07 42 33](https://user-images.githubusercontent.com/89813192/139573363-ce2e3db6-5a19-44d4-9b86-835b5b4f7947.png)
+![Screenshot 2021-10-31 at 07 43 20](https://user-images.githubusercontent.com/89813192/139573382-4380f219-3d8e-4a84-b5ea-630c815fa050.png)
+
 
 Contact us. 
 
 the main focus of the contact page for the user is the map of how to find the restaurant. For this and the address that is underneath and centered I put the address of the Fish & chip takeaway that I used to work for. I also put the address and contact number. In the footer there is a link to the newsletter so the restaurant has the option of creating a mail out if they would like. 
+   
+   
+   ![Screenshot 2021-10-31 at 07 45 28](https://user-images.githubusercontent.com/89813192/139573434-5e90c31d-4d06-473e-9a90-702eaa652f79.png)
+![Screenshot 2021-10-31 at 07 45 56](https://user-images.githubusercontent.com/89813192/139573445-8275afee-514c-4215-8481-89af205eb572.png)
+
+   
 
 
 
 Wireframe: 
-The wireframe that I created was designed using Balsamiq Wireframes. I created the four pages that I wanted using the wireframe and where possible I stuck to this guide. Although there are some parts that I later decided against such as logo’s on the external links and using dropdown menus in the middle of the page for the menu section. The reason for this was that it didn’t fit the stylistic seaside scheme that I wanted. I also added an extra image in the Book a table page.  ADD WIREFRAME
+The wireframe that I created was designed using Balsamiq Wireframes. I created the four pages that I wanted using the wireframe and where possible I stuck to this guide. Although there are some parts that I later decided against such as logo’s on the external links and using dropdown menus in the middle of the page for the menu section. The reason for this was that it didn’t fit the stylistic seaside scheme that I wanted. I also added an extra image in the Book a table page. 
+   ADD WIREFRAME
+[Wireframe for HTML and CSS project 1 .zip](https://github.com/samhodgson88/sh-fish-chips/files/7448294/Wireframe.for.HTML.and.CSS.project.1.zip)
 
-Site overview: 
 
-ADD IMAGES 
 
 The User Story
 
