@@ -245,25 +245,49 @@ A recurring problem that I did not manage to resolve was a drop down box within 
  As explained above I also have the issue of gitpod rejecting the commits for my CSS file. I have been unable to figure this out ![Screenshot 2021-10-29 at 16 31 06](https://user-images.githubusercontent.com/89813192/139573968-f71a5602-dc1b-40fc-a2b0-1f034e0a731d.png)
 
    
+   
 I have also passed my code through the w3 HTML and CSS checker with the following results for the four pages. 
    
-   *index*
+   **index**
    When I initially put the code through I had incurred 6 errors these for mainly Div tags that havent been closed properly. Another error that I found occured    frequently was the correct syntax for &. I had worked out that in order for it to be visible I had to included amp aftter the symbol but not that it needed to be closed off with a semi-colon.
    ![Screenshot 2021-10-31 at 08 29 30](https://user-images.githubusercontent.com/89813192/139574758-7ea06eb5-c6fc-4033-852a-d62e25ef4999.png)
 ![Screenshot 2021-10-31 at 08 20 36](https://user-images.githubusercontent.com/89813192/139574766-284a07cf-cda6-4898-8839-3a80c04d5b3a.png)
 
    
    
-   *menu*
+   **menu*!
+   
+   I had 8 errors that occured when I put the menu page through the HTML checker. I managed to narrow this down to theb are minimum of two errors. These were within the footer and did not effect any of the outputs. 
+   
+   [Uploading Screenshot 2021-10-31 at 08.42.14.png…]()
+   
+![Screenshot 2021-10-31 at 09 03 16](https://user-images.githubusercontent.com/89813192/139575507-f424de71-734a-4550-9f13-efa6dfbac8e9.png)
+
    
    *book a table*
    
-
+   I had 5 errors on the book a table page that I was able to remove including 1 Fatal error. I removed the fatal error by going back to my preivously saved code on github and repasting in the code line by line. this solved the problem and I have a clean code uploaded now. 
    
+   ![Screenshot 2021-10-31 at 09 13 01](https://user-images.githubusercontent.com/89813192/139575826-3137b151-c442-4289-86e8-9266a7a0768f.png)
+   ![Screenshot 2021-10-31 at 10 13 51](https://user-images.githubusercontent.com/89813192/139577841-c9f2f070-75d5-41dc-a0a5-3a5cdaac765d.png)
+
    
    *contact us*
    
+   I kept 5 errors in my Contact us page as that was the Iframe. The error was that the attribute elements were obsolete and I should use CSS however GITPOD will not upload my CSS. 
+   
+   ![Screenshot 2021-10-31 at 10 22 31](https://user-images.githubusercontent.com/89813192/139578162-eb7ea57f-e6cf-45b7-9516-98cfc9f162ec.png)
+
+   
    *css* (content included in the read me)
+   
+   No errors in CSS that is uploaded to the readme.md
+   ![Screenshot 2021-10-31 at 10 27 17](https://user-images.githubusercontent.com/89813192/139578282-84d97a92-a6c8-4a61-8a7c-6c693f2891f4.png)
+![Screenshot 2021-10-31 at 10 27 01](https://user-images.githubusercontent.com/89813192/139578285-a2538e74-ed2e-4391-bf96-5256ccd3da82.png)
+![Screenshot 2021-10-31 at 10 26 41](https://user-images.githubusercontent.com/89813192/139578286-c8a9e71e-868d-4ba6-805c-796e8658f7bd.png)
+![Screenshot 2021-10-31 at 10 26 21](https://user-images.githubusercontent.com/89813192/139578287-e0614079-8d3e-4242-9e0e-d44eb9f72697.png)
+
+   
    
    
 
@@ -273,6 +297,57 @@ I have also passed my code through the w3 HTML and CSS checker with the followin
 The website has been deployed to git-hub pages as sh-fish-chips
 ![image](https://user-images.githubusercontent.com/89813192/139556364-f2a082af-8843-4e04-90c6-b172a15f291b.png)
 
+   
+   
+Process of deplyment is as following 
+   
+   Logged into gthub 
+   
+   The repositary for the project is https://github.com/samhodgson88/sh-fish-chips   
+   
+   click on "settings" on the main menu over the file listing.
+   
+   Navigate down to github pages and click the link. 
+   
+   select master branch from the menu.
+   
+   A live link opens and is now viewablew publicly. 
+   
+   
+   
+ **Acknowledgement and thanks**   
+   
+   I used the following programmes to create this website. 
+   
+   HTML and CSS are the main three technologies used for the build in additon I used the following. 
+   
+   Gitpod: As the workspace used to write the code.
+   
+   Github: to save the code and I have used github to write the readme document. 
+   
+   Bootstrap: I have used this throughout in order to create a responsive web design or mobile screens and larger.
+   
+   googlefonts: was used throughout.
+   
+   W3c Markup validation service  used to check HTML code.
+   
+   CSS validation services to create CSS code.
+   
+   Lighthouse extension for google chrome.
+   
+   Google chrome develop tools:
+   
+   Free front end: was used form my footer although I modified this slightly. 
+   
+   I would also like to thank Felipe Souza Alarcon for his time and help. The outcome from this project is not what I wanted however I think the issue with gitpod goes outside the remit of this project and I will speak to code academy regarding the re-submission process. 
+   
+   
+   
+   
+   
+   
+   
+   
 
 
 
