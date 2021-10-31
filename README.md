@@ -158,10 +158,7 @@ h3,h4 {
   THIS IS THE READ ME FILE AS INTENDED! 
   
   
-  
-  
-  
-  
+ 
 
 **Introduction:**
 
@@ -243,7 +240,32 @@ I tested the website that I created on Lighthouse and hear are the following res
 
 I also manually tested the responsiveness of the design in the google chrome developer tools where it work in phone tablet and desktop size. 
 
-A recurring problem that I did not manage to resolve was a drop down box within the Nav bar. I had major issues around responsiveness with this and the dropdown box that would have had  the links to delivery services in would disappear at any below the desktop level of 1200px
+A recurring problem that I did not manage to resolve was a drop down box within the Nav bar. I had major issues around responsiveness with this and the dropdown box that would have had  the links to delivery services in would disappear at any below the desktop level of 1200px.
+   
+ As explained above I also have the issue of gitpod rejecting the commits for my CSS file. I have been unable to figure this out ![Screenshot 2021-10-29 at 16 31 06](https://user-images.githubusercontent.com/89813192/139573968-f71a5602-dc1b-40fc-a2b0-1f034e0a731d.png)
+
+   
+I have also passed my code through the w3 HTML and CSS checker with the following results for the four pages. 
+   
+   *index*
+   When I initially put the code through I had incurred 6 errors these for mainly Div tags that havent been closed properly. Another error that I found occured    frequently was the correct syntax for &. I had worked out that in order for it to be visible I had to included amp aftter the symbol but not that it needed to be closed off with a semi-colon.
+   ![Screenshot 2021-10-31 at 08 29 30](https://user-images.githubusercontent.com/89813192/139574758-7ea06eb5-c6fc-4033-852a-d62e25ef4999.png)
+![Screenshot 2021-10-31 at 08 20 36](https://user-images.githubusercontent.com/89813192/139574766-284a07cf-cda6-4898-8839-3a80c04d5b3a.png)
+
+   
+   
+   *menu*
+   
+   *book a table*
+   
+
+   
+   
+   *contact us*
+   
+   *css* (content included in the read me)
+   
+   
 
 
 **Deployment** 
