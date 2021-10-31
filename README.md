@@ -163,19 +163,19 @@ h3,h4 {
   
   
 
-Introduction:
+**Introduction:**
 
 Hodgey’s fish and chips is a fictitious restaurant business based loosely on a real life takeaway based in Hertfordshire UK that I worked for a as a delivery driver in the beginning six months of the covid-19 pandemic. The website offers information about the service provided, contact details, details of how to find the restaurant, a form for pre-booking a table and external links to third party delivery websites. The website consists of four pages. The home page with opening times and blurb of the business, a menu page, book a table page and a contact us page. 
    
 ![Screenshot 2021-10-29 at 16 30 51](https://user-images.githubusercontent.com/89813192/139572997-1e3c8531-becf-4cb4-a9c0-3cc7901c51d6.png)
 
 
-UX:
+**UX:**
 
 My overall aim was to have a responsive website that gave a feel of the seaside through images and colour, this is the tone set throughout. I wanted it to be uncluttered and easy to navigate. 
 A further aim was to clearly offer both parts of the restaurant and takeaway service and I have done this through a dedicated booking page and external links to delivery sites. 
 
-Home page:
+**Home page:**
 
 On the home I wanted a design that gave a quick synopsis of the service provided. A Navigation bar that was clear and was within the blue colour scheme that represents the seaside and a title that
 clearly stated both restaurant & takeaway. In the centre is a jumbotron of a seafront in a coastal town in Devon called Brixham which I think is eyecatching for the user. Then underneath is useful information about opening times. 
@@ -188,7 +188,7 @@ clearly stated both restaurant & takeaway. In the centre is a jumbotron of a sea
 
 
 
-Menu Page: 
+**Menu Page:** 
 
 Throughout the design I used the CSS framework bootstrap to ensure that I was making a fully responsive website that would work from mobile device upwards. The framework was useful for placing the menu options It is split into the three items per row. Fish, burgers, pies then extras, drinks and desserts. I us used the bootstrap classes row and  col-sm-4 to achieve this. I deliberately wanted to keep this page as simple as possible and avoid images as a rule of thumb in the food world is that establishments are usually nicer if they don’t have pictures of the food next to the menu. 
    
@@ -197,7 +197,7 @@ Throughout the design I used the CSS framework bootstrap to ensure that I was ma
    
 
    
-Book-a-table:
+**Book-a-table:**
 
 This page is a form for the user too interactive with in order to pre-book a table. To keep within the seaside image on this occasion I used a centered jumbotron of Bangor harbour in Wales. 
 Underneath  this jumbotron is a centered form that I created which contains all of the information needed in order to book a table. Customers name, contact details times and date they want and amount of guests. I wanted to keep this form as wide as possible in order for the user to clearly see what input are needed in the form. In this case I used the classes row  and col-md-6 for placement. 
@@ -207,7 +207,7 @@ Underneath  this jumbotron is a centered form that I created which contains all 
 ![Screenshot 2021-10-31 at 07 43 20](https://user-images.githubusercontent.com/89813192/139573382-4380f219-3d8e-4a84-b5ea-630c815fa050.png)
 
 
-Contact us. 
+**Contact us.** 
 
 the main focus of the contact page for the user is the map of how to find the restaurant. For this and the address that is underneath and centered I put the address of the Fish & chip takeaway that I used to work for. I also put the address and contact number. In the footer there is a link to the newsletter so the restaurant has the option of creating a mail out if they would like. 
    
@@ -219,14 +219,15 @@ the main focus of the contact page for the user is the map of how to find the re
 
 
 
-Wireframe: 
+**Wireframe:** 
+   
 The wireframe that I created was designed using Balsamiq Wireframes. I created the four pages that I wanted using the wireframe and where possible I stuck to this guide. Although there are some parts that I later decided against such as logo’s on the external links and using dropdown menus in the middle of the page for the menu section. The reason for this was that it didn’t fit the stylistic seaside scheme that I wanted. I also added an extra image in the Book a table page. 
    ADD WIREFRAME
 [Wireframe for HTML and CSS project 1 .zip](https://github.com/samhodgson88/sh-fish-chips/files/7448294/Wireframe.for.HTML.and.CSS.project.1.zip)
 
 
 
-The User Story
+**The User Story**
 
 As a user I want the website to be easy to navigate. If I was local to the area I would be easily able find out the opening times so I could go to the takeaway myself. I can navigate all pages clearly and easily from the navigation bar. 
 
@@ -236,7 +237,7 @@ As a user I want to find out the location of the restaurant. This can be found o
 
 As a user I would like to book online. The form makes this possible. 
 
-Testing. 
+**Testing.** 
 
 I tested the website that I created on Lighthouse and hear are the following results. The speed index came in at 2.5s accessibility received 93 out of 100. 
 
@@ -245,7 +246,7 @@ I also manually tested the responsiveness of the design in the google chrome dev
 A recurring problem that I did not manage to resolve was a drop down box within the Nav bar. I had major issues around responsiveness with this and the dropdown box that would have had  the links to delivery services in would disappear at any below the desktop level of 1200px
 
 
-Deployment 
+**Deployment** 
 
 The website has been deployed to git-hub pages as sh-fish-chips
 ![image](https://user-images.githubusercontent.com/89813192/139556364-f2a082af-8843-4e04-90c6-b172a15f291b.png)
