@@ -34,7 +34,8 @@ hint: You can replace "git config" with "git config --global" to set a default
 hint: preference for all repositories. You can also pass --rebase, --no-rebase,
 hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
-  
+   ![Screenshot 2021-10-30 at 22 31 52](https://user-images.githubusercontent.com/89813192/139572930-2a3e664c-5f44-4df2-9517-1fe853eeb3e3.png)
+
   
   
 All of the work I completed was local so I am unable to pull files from anywhere. The project is due in on 31/10/21 at 12 Noon. I understand that I am going to initially fail this project but this issue is out of my control and completley outside of my capabilites (or the majority of people at this point in the course). to solve in the timeframe before I need to hand this project in (I have started off as a complete beginer). I feel that this issue has unfairly put me in a positon of failing so when possible I would like to discuss re-submissions. I can show and prove that I have completed the work within this read.me but it will not be applied to the finished website that will be seen.
@@ -166,8 +167,8 @@ Introduction:
 
 Hodgey’s fish and chips is a fictitious restaurant business based loosely on a real life takeaway based in Hertfordshire UK that I worked for a as a delivery driver in the beginning six months of the covid-19 pandemic. The website offers information about the service provided, contact details, details of how to find the restaurant, a form for pre-booking a table and external links to third party delivery websites. The website consists of four pages. The home page with opening times and blurb of the business, a menu page, book a table page and a contact us page. 
 
-![] (/workspace/sh-fish-chips/css/amiresponsive.png)
 
+/workspace/sh-fish-chips/css/amiresponsive.png
 
 UX:
 
